@@ -1,0 +1,86 @@
+/* Reset margin dan padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+
+/* Konten */
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+
+/* Tabel */
+
+.table-container {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.table-dark th {
+    background-color: #212529;
+    color: white;
+}
+
+
+/* Footer Total */
+
+tfoot {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+}
+
+tfoot td {
+    padding: 10px;
+}
